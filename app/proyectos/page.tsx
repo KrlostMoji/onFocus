@@ -1,10 +1,8 @@
-import Header from '@src/components/Header'
 import React from 'react'
 
 export default function proyectosPage() {
   return (
     <>
-      <Header />
       <div
           className="bg-cover h-2/3 bg-center md:bg-top"
           style={{
