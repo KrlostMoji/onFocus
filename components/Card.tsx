@@ -7,9 +7,9 @@ type CardProps = {
 export default function Card({servicio}: CardProps) {
   return (
     <div 
-      className='bg-teal-400 w-60 min-h-56 text-center hover:bg-teal-600 hover:rotate-3 flex justify-center items-center transform'
+      className='bg-teal-400 w-60 min-h-56 text-center transition hover:scale-110 ease-in-out hover:bg-teal-600 hover:rotate-3 flex justify-center items-center'
     >
-      <p>{servicio}</p>
+      <p className='hover:animate-bounce'>{servicio}</p>
     </div>
   )
 }
