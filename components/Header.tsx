@@ -10,7 +10,7 @@ export default function Header() {
       >
         <Image src='/logo.png' alt='Logotipo' width={100} height={100}/>
         <nav
-          className="space-x-5 pr-10 mt-10 text-gd font-bold"
+          className="space-x-2 md:space-x-5 pr-0 md:pr-10 mt-0 md:mt-10 text-gd font-bold"
         >
           <Link
             href={'/'}

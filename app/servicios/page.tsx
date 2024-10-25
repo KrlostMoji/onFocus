@@ -17,7 +17,7 @@ export default function serviciosPage() {
           >
             <p className='mt-10 text-2xl'>Servicios onFocus(SIDE)</p>
             <ul
-              className='list-none mt-5 grid grid-cols-2 md:grid-cols-3 gap-5 mb-10 '
+              className='list-none mt-5 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 mb-10 '
             >
               <li><Card servicio={"Servicio de Diseño y Desarrollo Web"}/></li>
               <li><Card servicio={"Sistemas de Venta en Línea"}/></li>
