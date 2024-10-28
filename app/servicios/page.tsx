@@ -8,12 +8,11 @@ export default function serviciosPage() {
       <div
           className="bg-cover h-2/3 bg-center md:bg-top"
           style={{
-            backgroundImage: `url(/background.jpg)`,
-            opacity: ".7"
+            backgroundImage: `url(/background.jpg)`
           }}
         >
           <div
-            className="flex flex-col justify-center items-center text-gray-1000 font-black"
+            className="flex flex-col justify-center items-center text-gray-800 font-black"
           >
             <p className='mt-10 text-2xl'>Servicios onFocus(SIDE)</p>
             <ul
