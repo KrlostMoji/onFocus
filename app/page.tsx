@@ -16,7 +16,7 @@ export default function Home() {
             className='flex flex-col w-3/4 justify-center items-center m-auto text-gray-800 font-black z-10'
           >
             <p className='mt-10 text-2xl'>Tecnologías de desarrollo</p>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-10 mb-10 mt-5 items-center">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-1 md:gap-10 mb-10 mt-10 items-center">
               <Image 
                 src='/html.png' width={200} height={200} alt='Logo html'
               />

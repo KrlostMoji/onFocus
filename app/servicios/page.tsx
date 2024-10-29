@@ -1,5 +1,6 @@
 import Card from '@src/components/Card'
 import React from 'react'
+import servicios from './infoCards.json'
 
 export default function serviciosPage() {
 
@@ -12,20 +13,16 @@ export default function serviciosPage() {
           }}
         >
           <div
-            className="flex flex-col justify-center items-center text-gray-800 font-black"
+            className="flex flex-col justify-center items-center  font-black"
           >
-            <p className='mt-10 text-2xl'>Servicios onFocus(SIDE)</p>
+            <p className='mt-10 text-2xl text-gray-800'>Servicios onFocus(SIDE)</p>
             <ul
-              className='list-none mt-5 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 mb-10 '
+              className='list-none mt-10 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 mb-10 '
             >
-              <li><Card servicio={"Servicio de Diseño y Desarrollo Web"}/></li>
-              <li><Card servicio={"Sistemas de Venta en Línea"}/></li>
-              <li><Card servicio={"Sistemas de Administración"}/></li>
-              <li><Card servicio={"Sistemas de Facturación"}/></li>
-              <li><Card servicio={"Invitaciones Bodas, XVs, Bautizos, etc."}/></li>
-              <li><Card servicio={"Portafolio profesional"}/></li>
-              <li><Card servicio={"Manejo de redes sociales"}/></li>
-              <li><Card servicio={"Hosting y Dominios"}/></li>
+              {servicios.map(servicio=>(
+                <li key={servicio.svg}><Card servicio={servicio}/></li>
+              ))}
+              
             </ul>
           </div>
         </div>
