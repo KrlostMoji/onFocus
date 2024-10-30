@@ -1,6 +1,6 @@
 import Card from '@src/components/Card'
 import React from 'react'
-import servicios from './infoCards.json'
+import data from './infoCards.json'
 
 export default function serviciosPage() {
 
@@ -19,7 +19,7 @@ export default function serviciosPage() {
             <ul
               className='list-none mt-10 grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 mb-10 '
             >
-              {servicios.map(servicio=>(
+              {data.servicios.map(servicio=>(
                 <li key={servicio.svg}><Card servicio={servicio}/></li>
               ))}
               

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import 'react-multi-carousel/lib/styles.css';
+import 'swiper/css';
+import 'swiper/css/bundle';
 import Header from "@src/components/Header";
 import Footer from "@src/components/Footer";
 
@@ -33,9 +36,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased  bg-gradient-to-r to-cyan-600 from-teal-500`}
       >
-        <Header />
-        {children}
-        <Footer />
+          <Header />
+          {children}
+          <Footer />  
       </body>
     </html>
   );

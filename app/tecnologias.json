@@ -1,0 +1,12 @@
+{
+  "tecnologias" : [
+    {"imagen": "html.png", "nombre":"HTML 5"},
+    {"imagen": "css.png", "nombre":"CSS 3"},
+    {"imagen": "javascript.png", "nombre":"JavaScript5"},
+    {"imagen": "next-js.svg", "nombre":"Next JS"},
+    {"imagen": "re.png", "nombre":"React"},
+    {"imagen": "tailwindcss.png","nombre":"Tailwind CSS"},
+    {"imagen": "node-js.svg", "nombre":"Node JS"}
+  ]
+}
+

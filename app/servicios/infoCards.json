@@ -1,11 +1,13 @@
-[
-{"svg": "fa-solid fa-globe fa-xl", "nombreServicio": "Servicio de Diseño y Desarrollo Web"},
-{"svg": "fa-solid fa-store fa-xl", "nombreServicio": "Sistemas de Venta en Línea"},
-{"svg": "fa-solid fa-briefcase fa-xl", "nombreServicio": "Sistemas de Administración"},
-{"svg": "fa-solid fa-print fa-xl", "nombreServicio": "Sistemas de Facturación"},
-{"svg": "fa-solid fa-gift fa-xl", "nombreServicio": "Invitaciones de eventos"},
-{"svg": "fa-solid fa-user-tie fa-xl", "nombreServicio": "Portafolio profesional"},
-{"svg": "fa-solid fa-thumbs-up fa-xl", "nombreServicio": "Manejo de redes sociales"},
-{"svg": "fa-solid fa-computer fa-xl", "nombreServicio": "Hosting y Dominio"}
+{"servicios":[
+  {"svg": "fa-solid fa-globe fa-xl", "nombreServicio": "Servicio de Diseño y Desarrollo Web"},
+  {"svg": "fa-solid fa-store fa-xl", "nombreServicio": "Sistemas de Venta en Línea"},
+  {"svg": "fa-solid fa-briefcase fa-xl", "nombreServicio": "Sistemas de Administración"},
+  {"svg": "fa-solid fa-print fa-xl", "nombreServicio": "Sistemas de Facturación"},
+  {"svg": "fa-solid fa-gift fa-xl", "nombreServicio": "Invitaciones de eventos"},
+  {"svg": "fa-solid fa-user-tie fa-xl", "nombreServicio": "Portafolio profesional"},
+  {"svg": "fa-solid fa-thumbs-up fa-xl", "nombreServicio": "Manejo de redes sociales"},
+  {"svg": "fa-solid fa-computer fa-xl", "nombreServicio": "Hosting y Dominio"}
 ]
+}
+
 
