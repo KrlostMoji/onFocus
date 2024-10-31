@@ -72,32 +72,32 @@ export default function Home() {
                   className="items-center"
                 >
                 <Image 
-                  src='/html.png' width={200} height={400} alt='Logo html' 
+                  src='/html.png' width={200} height={400} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Image 
-                  src='/css.png' width={200} height={200} alt='Logo html' 
+                  src='/css.png' width={200} height={200} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Image 
-                  src='/javascript.png' width={200} height={200} alt='Logo html' 
+                  src='/javascript.png' width={200} height={200} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Image 
-                  src='/react.svg' width={200} height={200} alt='Logo html' 
+                  src='/react.svg' width={200} height={200} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Image 
-                  src='/tailwindcss.png' width={200} height={200} alt='Logo html' 
+                  src='/tailwindcss.webp' width={200} height={200} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
                 <SwiperSlide>
                 <Image 
-                  src='/next-js.svg' width={200} height={200} alt='Logo html' 
+                  src='/next-js.svg' width={200} height={200} alt='Logo html' className='bg-cyan-300'
                 />
                 </SwiperSlide>
               </Swiper>
