@@ -6,30 +6,10 @@ import 'swiper/css/bundle';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Autoplay, EffectCube, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, EffectCube, Pagination } from "swiper/modules";
 
 
 export default function Home() {
-
-  // const responsive = {
-  //   superLargeDesktop: {
-  //     // the naming can be any, depends on you.
-  //     breakpoint: { max: 4000, min: 3000 },
-  //     items: 5
-  //   },
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 3
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 2
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 1
-  //   }
-  // };
 
   return (
     <>
@@ -47,10 +27,9 @@ export default function Home() {
             <p className='mt-10 text-2xl'>Tecnologías de desarrollo</p>
             <div className="mb-10 mt-10">
               <Swiper
-                className='mySwiper w-[208px] mt-10'
+                className='mySwiper w-[250px] mt-10 flex justify-center items-center'
                 centeredSlides={true}
                 slidesPerView={1}
-                navigation={true}
                 effect={'cube'}
                 cubeEffect={{
                   shadow: true,
@@ -61,7 +40,7 @@ export default function Home() {
                 pagination={{
                   clickable: true,
                 }}
-                modules={[Navigation, Pagination, EffectCube, Autoplay]}
+                modules={[Pagination, EffectCube, Autoplay]}
                 autoplay={{
                   delay:3000, 
                   stopOnLastSlide:false, 
@@ -69,35 +48,45 @@ export default function Home() {
                 loop={true}
               >
                 <SwiperSlide
-                  className="items-center"
+                  className='bg-center bg-cover'
                 >
                 <Image 
-                  src='/html.png' width={200} height={400} alt='Logo html' className='bg-cyan-300'
+                  src='/html.png' width={250} height={250} alt='Logo html' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide
+                  className='bg-center bg-cover w-fit'
+                >
                 <Image 
-                  src='/css.png' width={200} height={200} alt='Logo html' className='bg-cyan-300'
+                  src='/css.png' width={250} height={250} alt='Logo css' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide
+                  className='bg-center bg-cover w-fit'
+                >
                 <Image 
-                  src='/javascript.png' width={200} height={200} alt='Logo html' className='bg-cyan-300'
+                  src='/javascript.png' width={250} height={250} alt='Logo javascript' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide
+                  className='bg-center bg-cover w-fit'
+                >
                 <Image 
-                  src='/react.svg' width={200} height={200} alt='Logo html' className='bg-cyan-300'
+                  src='/react.svg' width={250} height={250} alt='Logo react' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide
+                  className='bg-center bg-cover w-fit'
+                >
                 <Image 
-                  src='/tailwindcss.webp' width={200} height={200} alt='Logo html' className='bg-cyan-300'
+                  src='/tailwindcss.webp' width={250} height={250} alt='Logo tailwindcss' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide
+                  className='bg-center bg-cover w-fit'
+                >
                 <Image 
-                  src='/next-js.svg' width={200} height={200} alt='Logo html' className='bg-cyan-300'
+                  src='/next-js.svg' width={250} height={250} alt='Logo nodejs' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
                 />
                 </SwiperSlide>
               </Swiper>
