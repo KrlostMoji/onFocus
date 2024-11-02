@@ -6,7 +6,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { Autoplay, EffectCube, Pagination } from "swiper/modules";
+import { Autoplay, EffectCube, Navigation, Pagination } from "swiper/modules";
 
 
 export default function Home() {
@@ -27,9 +27,10 @@ export default function Home() {
             <p className='mt-10 text-2xl'>Tecnologías de desarrollo</p>
             <div className="mb-10 mt-10">
               <Swiper
-                className='mySwiper w-[250px] mt-10 flex justify-center items-center'
+                className='mySwiper md:w-[380px] w-[300px] text-justify'
                 centeredSlides={true}
                 slidesPerView={1}
+                navigation={true}
                 effect={'cube'}
                 cubeEffect={{
                   shadow: true,
@@ -37,57 +38,69 @@ export default function Home() {
                   shadowOffset: 20,
                   shadowScale: 0.94,
                 }}
-                pagination={{
-                  clickable: true,
-                }}
-                modules={[Pagination, EffectCube, Autoplay]}
+                pagination={true}
+                modules={[Navigation, Pagination, EffectCube, Autoplay]}
                 autoplay={{
                   delay:3000, 
                   stopOnLastSlide:false, 
                   disableOnInteraction:false}}
                 loop={true}
               >
-                <SwiperSlide
-                  className='bg-center bg-cover'
-                >
-                <Image 
-                  src='/html.png' width={250} height={250} alt='Logo html' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/html.png' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>HTML HiperText Market Language, uno de las herramientas más básicas para construir páginas Web, ahora en su versión 5, que admite nuevas funcionalidades como de XML, multimedia, nuevas etiquetas, elementos y nuevas APIs. Ideal para el contenido estático</p>
+                  </div>
                 </SwiperSlide>
-                <SwiperSlide
-                  className='bg-center bg-cover w-fit'
-                >
-                <Image 
-                  src='/css.png' width={250} height={250} alt='Logo css' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/css.png' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>CSS Cascade StyleSheet, es un lenguaje en constante evolución, a pesar de que CSS 5 se lanzó en 1999, se espera que cada 5 años se genere un nuevo nivel de CSS con nuevas características. CSS es una excelente opción para dar estilo, diseño y colores a tus páginas Web y aplicaciones.</p> 
+                  </div>
                 </SwiperSlide>
-                <SwiperSlide
-                  className='bg-center bg-cover w-fit'
-                >
-                <Image 
-                  src='/javascript.png' width={250} height={250} alt='Logo javascript' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/javascript.png' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>JavaScript, y su versión ECMAScript 2023, de junio de 2023, que tiene como objetivo mejorar la funcionalidad y el rendimiento, es un lenguaje que permite crear contenido dinámico, controles multimedia, imágenes animadas entre muchas otras cosas.</p>
+                  </div>
                 </SwiperSlide>
-                <SwiperSlide
-                  className='bg-center bg-cover w-fit'
-                >
-                <Image 
-                  src='/react.svg' width={250} height={250} alt='Logo react' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/react.svg' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>React, una librería muy amplia de JavaScript utilizada para el desarrollo web y aplicaciones móviles. Contiene una colección de fragmentos de código reutilizables para crear componentes.</p>
+                  </div>
                 </SwiperSlide>
-                <SwiperSlide
-                  className='bg-center bg-cover w-fit'
-                >
-                <Image 
-                  src='/tailwindcss.webp' width={250} height={250} alt='Logo tailwindcss' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/tailwindcss.webp' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>TailwindCSS, es un framework de CSS, para el diseño de páginas Web. Crea una lista de clases CSS que se pueden aplicar a cada elemento individualmente.</p>
+                  </div>
                 </SwiperSlide>
-                <SwiperSlide
-                  className='bg-center bg-cover w-fit'
-                >
-                <Image 
-                  src='/next-js.svg' width={250} height={250} alt='Logo nodejs' className='bg-gradient-to-tr to-cyan-600 from-teal-500 block'
-                />
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/next-js.svg' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>Next-JS, es un framework de JavaScript que permite crear aplicaciones Web y sitios Web estáticos, ofrece herramientas y configuración para React.</p>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                    <Image 
+                      src='/node-js.svg' width={200} height={200} alt='Logo html'
+                    />
+                    <p className='indent-12'>Node-JS, es un entorno de ejecución de JavaScript, que se utiliza para crear aplicaciones del lado del servidor, adecuado para grandes demandas de datos, como streaming de video y audio en línea.</p>
+                  </div>
                 </SwiperSlide>
               </Swiper>
               {/* <Carousel
