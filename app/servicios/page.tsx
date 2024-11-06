@@ -5,6 +5,7 @@ import data from './infoCards.json'
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import 'swiper/css/effect-coverflow';
+import './styles.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
@@ -22,7 +23,7 @@ export default function serviciosPage() {
           }}
         >
           <div
-            className="flex flex-col justify-center items-center  font-black"
+            className="flex flex-col justify-center items-center font-black w-full md:w-2/3 m-auto"
           >
             <p className='mt-10 text-2xl text-gray-800'>Servicios onFocus(SIDE)</p>
               <Swiper
@@ -31,35 +32,39 @@ export default function serviciosPage() {
                 centeredSlides={true}
                 slidesPerView={'auto'}
                 coverflowEffect={{
-                  rotate: 50,
+                  rotate: 30,
                   stretch: 2,
                   depth: 100,
                   modifier: 1,
                   slideShadows: true,
                 }}
-                pagination={true}
+                pagination={{
+                  clickable: true
+                }}
                 //effect={'cards'}
                 //grabCursor={true}
                 modules={[EffectCards, EffectCoverflow, Pagination]}
-                className="mySwiper w-[280px] md:w-[420px] h-[350px] md:h-[400px] mt-10"
+                className="mySwiper mt-10"
                 watchSlidesProgress={true}
               >
-                <div className='flex items-center justify-center' id='contenedor'>
+                {/* <div className='flex items-center justify-center' id='contenedor'> */}
                   {data.servicios.map(servicio=>(
-                    <SwiperSlide key={servicio.svg} className='rounded-lg hover:rounded-lg bg-gradient-to-tr to-cyan-800 from-teal-500'>
+                    <SwiperSlide key={servicio.svg} className='rounded-lg'>
                       {({ isActive }) => (
                         isActive ? (
                         <>
-                          <div className='flex flex-col gap-2 items-center justify-center text-justify p-5'>
+                          <div className='flex flex-col gap-2 items-center justify-center text-justify p-5 bg-gradient-to-tr to-cyan-800 from-teal-500 rounded-md h-full'>
                             <Card servicio={servicio} />
                             <p className='text-xs md:text-base mt-5'>{servicio.descripcion}</p>
                           </div>
                         </>
-                        ) : <Card servicio={servicio} /> 
+                        ) : (
+                            <Card servicio={servicio}/>
+                        )
                       )}
                     </SwiperSlide>
                   ))}
-                </div>
+                {/* </div> */}
               </Swiper>
           </div>
         </div>
