@@ -16,38 +16,43 @@ export default function Footer() {
       >
         <Link
           href={'https://www.facebook.com/7mojimojito/'}
-          className=''
+          id='Facebook Carlos Mojica'
         >
           <i className="fa-brands fa-square-facebook fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://www.instagram.com/_mojimojito/'}
+          id='Instagram Carlos Mojica'
         >
           <i className="fa-brands fa-instagram fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://www.threads.net/@_mojimojito'}
+          id='Trhread Carlos Mojica'
         >
           <i className="fa-brands fa-threads fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://wa.me/+523125951190'}
+          id='Whatsapp Carlos Mojica'
         >
           <i className="fa-brands fa-whatsapp fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://www.facebook.com/victormojica22/'}
-          className=''
+          id='Facebook Victor Mojica'
         >
           <i className="fa-brands fa-square-facebook fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://www.instagram.com/victormojica22/'}
+          id='Instagram Victor Mojica'
         >
           <i className="fa-brands fa-instagram fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>
         <Link
           href={'https://wa.me/+523121044302'}
+          id='Whatsapp Victor Mojica'
         >
           <i className="fa-brands fa-whatsapp fa-xl hover:drop-shadow-1" style={{color: '#000'}}></i>
         </Link>

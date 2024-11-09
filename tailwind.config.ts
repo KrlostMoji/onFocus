@@ -13,7 +13,8 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       dropShadow: {
-        '1': '0 0 5px rgba(0, 0, 255, 1)'
+        '1': '0 0 5px rgba(0, 0, 255, 1)',
+        '2': '0 0 20px rgba(255, 255, 255, 1)',
       }
     },
   },

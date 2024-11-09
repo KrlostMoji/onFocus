@@ -10,8 +10,13 @@ export default function proyectosPage() {
             height: "800px"
           }}
         >
-          <p>Desde productos</p>
+        <div
+          className='flex flex-col w-2/3 md:w-1/4 lg:w-1/6 justify-center items-center m-auto text-gray-800 font-bold'
+        >
+          <p className='mt-10 text-2xl'>Proyectos</p>
+          
         </div>
+      </div>
     </>
   )
 }
