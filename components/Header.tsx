@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <>
       <div
-        className='h-20 flex justify-between m-5 text-gray-50'
+        className='h-20 flex justify-between m-5 text-gray-50 items-center'
       >
         <Link 
           href={'/'}

@@ -64,13 +64,13 @@ export default function serviciosPage(){
                   {({ isActive }) => (
                     isActive ? (
                     <>
-                      <div className='flex flex-col gap-2 items-center justify-center text-justify p-5 bg-gradient-to-tr to-cyan-800 from-teal-500 rounded-md h-full w-full'>
+                      <div className='grid justify-center text-justify px-5 bg-gradient-to-tr to-cyan-800 from-teal-500 rounded-md h-full w-full my-auto'>
                         <Card servicio={servicio} />
-                        <p className='text-xs md:text-base mt-5 text-white mb-5'>{servicio.descripcion}</p>
+                        <p className='text-xs md:text-base text-white my-3'>{servicio.descripcion}</p>
                       </div>
                     </>
                     ) : (
-                      <div className='flex flex-col gap-2 items-center justify-center text-justify p-5 rounded-md h-full'>
+                      <div className='grid justify-center text-justify px-5 rounded-md h-full'>
                         <Card servicio={servicio}/>
                       </div>
                     )

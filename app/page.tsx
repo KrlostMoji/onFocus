@@ -20,11 +20,11 @@ export default function Home() {
         }}
       >
         <div
-          className='flex w-2/3 md:w-1/4 lg:w-1/6 justify-center items-center m-auto text-gray-800 font-bold'
+          className='flex w-full md:w-2/4 justify-center items-center m-auto text-gray-800 font-bold'
         >
-          <p className='mt-10 text-2xl'>Tecnologías de desarrollo</p>
+          <p className='my-10 text-2xl'>Tecnologías de desarrollo</p>
         </div>
-        <div className="my-10 w-2/3 md:w-1/5 justify-center items-center m-auto text-gray-800 font-black">
+        <div className="my-10 w-2/3 md:w-2/5 justify-center items-center m-auto text-gray-800 font-black">
             <Swiper
               className='mySwiper text-justify'
               centeredSlides={true}
@@ -42,7 +42,7 @@ export default function Home() {
               loop={true}
             >
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/html.png' width={200} height={200} alt='Logo html'
                   />
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/css.png' width={200} height={200} alt='Logo html'
                   />
@@ -58,7 +58,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/javascript.png' width={200} height={200} alt='Logo html'
                   />
@@ -66,7 +66,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/react.svg' width={200} height={200} alt='Logo html'
                   />
@@ -74,7 +74,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/tailwindcss.webp' width={200} height={200} alt='Logo html'
                   />
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/next-js.svg' width={200} height={200} alt='Logo html'
                   />
@@ -90,7 +90,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className='flex flex-col h-[440px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-5 text-sm md:text-base rounded-lg'>
+                <div className='flex flex-col h-[500px] gap-1 md:gap-5 bg-gradient-to-tr to-cyan-800 from-teal-500 justify-center items-center p-1 text-sm md:text-base rounded-lg'>
                   <Image 
                     src='/node-js.svg' width={200} height={200} alt='Logo html'
                   />
