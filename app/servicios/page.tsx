@@ -56,7 +56,6 @@ export default function serviciosPage(){
             modules={[EffectCards, EffectCoverflow, Pagination]}
             className="mySwiper mt-10"
             watchSlidesProgress={true}
-            loop={true}
           >
             {/* <div className='flex items-center justify-center' id='contenedor'> */}
               {data.servicios.map(servicio=>(
