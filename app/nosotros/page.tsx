@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import data from './personal.json'
+import IdCard from '@src/components/IdCard'
 
 export default function nosotrosPage() {
   return (
@@ -8,13 +10,12 @@ export default function nosotrosPage() {
           className="bg-cover h-2/3 bg-center md:bg-top"
           style={{
             backgroundImage: `url(/background.jpg)`,
-            height: "800px"
           }}
         >
         <div
           className='flex w-3/4 justify-center items-center m-auto text-gray-800 font-bold'
         >
-          <p className='my-10 text-2xl'>Acerca de OnFocus</p>
+          <p className='my-10 text-2xl bg-gradient-to-tr from-black via-red-700 to-black bg-clip-text text-transparent'>Acerca de OnFocus</p>
         </div>
         <div className='w-3/4 mx-auto grid grid-cols-1 xl:grid-cols-2 place-items-start justify-center gap-5 text-justify mb-5'>
           <div className='grid gap-3 md:gap-1 lg:grid-rows-2 place-items-center justify-center'>
@@ -28,6 +29,17 @@ export default function nosotrosPage() {
             </p>
           </div>
           <Image src={'/developer.jpg'} alt='Developer' width={500} height={500} className='mx-auto row-start-1 xl:row-start-auto drop-shadow-2' />
+        </div>
+        <div className='flex flex-col w-full items-center m-auto text-gray-800 font-bold'>
+          <p className='my-10 text-2xl bg-gradient-to-tr from-black via-red-700 to-black bg-clip-text text-transparent'>Nuestro equipo</p>
+          <div className='flex flex-col md:flex-row gap-2 w-full md:w-3/4 xl:w-2/3 px-3'>
+            {data.personal.map(miembro =>(
+              <IdCard 
+                key={miembro.id}
+                miembro={miembro}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </>
