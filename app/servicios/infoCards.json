@@ -1,12 +1,12 @@
 {"servicios":[
-  {"svg": "fa-solid fa-globe fa-xl", "nombreServicio": "Servicio de Diseño y Desarrollo Web", "descripcion":"Desarrollamos aplicaciones Web para todas tus necesidades"},
-  {"svg": "fa-solid fa-store fa-xl", "nombreServicio": "Sistemas de Venta en Línea", "descripcion":"Comienza a vender tus productos en línea sin necesidad de una tienda física" },
-  {"svg": "fa-solid fa-briefcase fa-xl", "nombreServicio": "Sistemas de Administración", "descripcion":"Login, registro de usuarios, control de inventarios"},
-  {"svg": "fa-solid fa-print fa-xl", "nombreServicio": "Sistemas de Facturación", "descripcion":"Aplicaciones para la venta y facturación"},
-  {"svg": "fa-solid fa-gift fa-xl", "nombreServicio": "Invitaciones de eventos", "descripcion":"Olvídate de no poder entregar tus invitaciones físicas, la era digital es hoy"},
-  {"svg": "fa-solid fa-user-tie fa-xl", "nombreServicio": "Portafolio profesional", "descripcion":"Acércate a las personas para ofertar tus servicios profesionales desde tu propia página Web"},
-  {"svg": "fa-solid fa-thumbs-up fa-xl", "nombreServicio": "Manejo de redes sociales", "descripcion":"Nos encargamos de subir contenido a las redes sociales como Facebook e Instagram"},
-  {"svg": "fa-solid fa-computer fa-xl", "nombreServicio": "Hosting y Dominio","descripcion":"Te ayudamos a conseguir el dominio adecuado y el almacenamiento para tus proyectos"}
+  {"svg": "fa-solid fa-globe fa-xl", "nombreServicio": "Servicio de Diseño y Desarrollo Web", "descripcion":"Desarrollo de aplicaciones Web, para todas tus necesidades."},
+  {"svg": "fa-solid fa-store fa-xl", "nombreServicio": "Sistemas de Venta en Línea", "descripcion":"Tienda virtual." },
+  {"svg": "fa-solid fa-briefcase fa-xl", "nombreServicio": "Sistemas de Administración", "descripcion":"Administra desde usuarios hasta productos."},
+  {"svg": "fa-solid fa-print fa-xl", "nombreServicio": "Sistemas de Facturación", "descripcion":"Aplicaciones para la venta y facturación."},
+  {"svg": "fa-solid fa-gift fa-xl", "nombreServicio": "Invitaciones de eventos", "descripcion":"Invitaciones digitales personalizadas y diseños varios."},
+  {"svg": "fa-solid fa-user-tie fa-xl", "nombreServicio": "Portafolio profesional", "descripcion":"Portafolio personal, ofrece tus servicios como profesionista."},
+  {"svg": "fa-solid fa-thumbs-up fa-xl", "nombreServicio": "Manejo de redes sociales", "descripcion":"Manejo de tus redes sociales como Facebook e Instagram"},
+  {"svg": "fa-solid fa-computer fa-xl", "nombreServicio": "Hosting y Dominio","descripcion":"Asesoría para host y dominios adecuados para tu empresa."}
 ]
 }
 

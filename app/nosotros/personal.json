@@ -1,7 +1,7 @@
 {
   "personal" : [
     {"id": "1","nombre": "Carlos", "apellido":"Mojica", "carrera": "Ingeniero En Sistemas Computacionales", "egresado": "Facultad de Ingeniería Mecánica y Eléctrica", "certificaciones": "Desarrollo Web Completo con HTML 5, CSS3, JS AJAX, PHP y MySQL; React y Typescript", "imagen": "perfil2.jpg"},
-    {"id": "2","nombre": "Víctor", "apellido":"Mojica", "carrera": "Ingeniero En Desarrollo de Software", "egresado": "Facultad de Telemática", "certificaciones": "Desarrollo Web Completo con HTML 5, CSS3, JS AJAX, PHP y MySQL; React y Typescript", "imagen": "perfil3.jpg"}
+    {"id": "2","nombre": "Víctor", "apellido":"Mojica", "carrera": "Ingeniero En Telemática", "egresado": "Facultad de Telemática", "certificaciones": "Desarrollo Web Completo con HTML 5, CSS3, JS AJAX, PHP y MySQL; React y Typescript", "imagen": "perfil3.jpg"}
   ]
 }
 
